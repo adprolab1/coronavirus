@@ -13,7 +13,7 @@ var insert = function (selector, html) {
 
 
 var load = function (selector) {
-  var html = "<div class='text-center'><img src='images/ajax-loader.gif'></div>";
+  var html = "<div class='text-center'><img src='https://media3.giphy.com/media/G5oLu3F8LNIty/source.gif'></div>";
   insert(selector, html);
 };
 
