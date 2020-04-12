@@ -1,0 +1,146 @@
+
+*{
+	margin:0px;
+}
+button{
+	background-color: #6a0dad; 
+	height: 50px; 
+	padding:10px;
+	margin:10px;
+	color:#dfaf37;
+}
+button>a{
+	font-size: 1.5em;
+	color:#dfaf37;
+	font-weight:bold;
+}
+button:hover>a{
+	color:#6a0dad;
+}
+button:hover{
+	color:#6a0dad;
+	background-color:#dfaf37;
+}
+
+
+a>div{
+	text-align: center;
+}
+a:hover,a:focus,a:visited{
+	text-decoration: none;
+}
+body{
+	font-family: 'Barlow Condensed', sans-serif;
+	background:url('https://static-news.moneycontrol.com/static-mcnews/2020/02/nCov-770x433.jpg') center no-repeat; 
+}
+marquee{
+	font-size:1.5em;
+	font-weight: bold;
+	color:#00008b;
+	font-style: italic;
+}
+#who,#global-giving,#pm-cares,#uday{
+	background-color: #add8e6;
+}
+#footer{
+	background-color: #FFA500;
+	font-size: 1.5em;
+	color:;
+	margin-top:10px;
+	width:100%;
+	text-align: center;
+}
+#footer>p{
+	font-size: 0.8em;
+}
+#navigationbar{
+	background-color: #6a0dad;
+	height: 200px;
+	border-radius: 0;
+	text-align: center;
+}
+
+h1{
+	color:#dfaf37 ;
+	font-size: 3em;
+	font-weight: bold;
+	text-align: center;
+
+}
+
+h2{
+	color:#800000;
+	font-weight: bold;
+	font-size: 2.5em;
+	text-align: center;
+}
+div>span{
+	color:#800000 ;
+	font-size: 1.5em;
+	text-align: center;
+	font-weight: bold;
+}
+.col-xs-12,.col-md-6,.col-lg-4,.col-lg-6{
+	border:1px solid #000000;
+	background-color:#dfaf37;
+	color: #800000; 
+	font-size: 1.2em;
+	margin: auto;
+	height:auto;
+	padding:0px;
+} 
+
+.col-xs-12:hover,.col-md-6:hover,.col-lg-4:hover,.col-lg-6:hover{
+	opacity:0.6;
+
+}
+
+
+
+ #content{
+ 	clear:both;
+ 	position: relative;
+ }
+ #return>a:hover,a:focus,a:visited{
+	text-decoration: none;
+}
+
+ /* FOR SMALL/ VERY SMALL DEVICES */
+
+@media(max-width: 768px){
+	#content{
+		margin-top: 120px;
+		margin-right: 30px;
+		margin-left: 30px;
+	}
+	.col-xs-12{
+		margin-bottom: 10px;
+	}
+}
+
+/*FOR MEDIUM- SIZE DEVICES*/
+
+@media(max-width:1199px) and (min-width: 769px){
+	.col-md-6{
+		width:47%;
+		margin:10px;
+	}
+}
+
+/*FOR LARGE DEVICES*/
+
+@media(min-width:1200px){
+	.col-lg-4{
+		width:30%;
+		margin:10px;
+	}
+	.col-lg-6{
+		width:47%;
+		margin:10px;
+	}
+}
+
+
+
+
+
